@@ -1,0 +1,14 @@
+# Carpetas de compilación de latexmk
+build/
+
+# Auxiliares, por si alguna vez compilas sin .latexmkrc
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz
+*.synctex(busy)
+
+# PDFs: se generan a partir del .tex
+*.pdf
